@@ -21,14 +21,30 @@ class ClientService {
     return { ...client };
   }
 
-  async create(clientData) {
+async create(clientData) {
     await delay(400);
+    
+    // Validate required fields
+    if (!clientData.companyName || !clientData.email) {
+      throw new Error('Nombre de empresa y email son requeridos');
+    }
+    
+    // Check for duplicate email
+    const existingClient = this.clients.find(c => c.email.toLowerCase() === clientData.email.toLowerCase());
+    if (existingClient) {
+      throw new Error('Ya existe un cliente con este email');
+    }
+    
     const newClient = {
       ...clientData,
-      Id: Math.max(...this.clients.map(c => c.Id)) + 1,
+      Id: this.clients.length > 0 ? Math.max(...this.clients.map(c => c.Id)) + 1 : 1,
       createdAt: new Date().toISOString(),
-      status: 'active'
+      updatedAt: new Date().toISOString(),
+      status: clientData.status || 'active',
+      customFields: clientData.customFields || {},
+      notes: clientData.notes || ''
     };
+    
     this.clients.push(newClient);
     return { ...newClient };
   }

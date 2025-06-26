@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { toast } from 'react-toastify';
-import DataTable from '@/components/molecules/DataTable';
-import SearchBar from '@/components/molecules/SearchBar';
-import Button from '@/components/atoms/Button';
-import Card from '@/components/atoms/Card';
-import SkeletonLoader from '@/components/organisms/SkeletonLoader';
-import ErrorState from '@/components/organisms/ErrorState';
-import EmptyState from '@/components/organisms/EmptyState';
-import { useLanguage } from '@/hooks/useLanguage';
-import clientService from '@/services/api/clientService';
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import { toast } from "react-toastify";
+import { useLanguage } from "@/hooks/useLanguage";
+import clientService from "@/services/api/clientService";
+import DataTable from "@/components/molecules/DataTable";
+import SearchBar from "@/components/molecules/SearchBar";
+import SkeletonLoader from "@/components/organisms/SkeletonLoader";
+import EmptyState from "@/components/organisms/EmptyState";
+import ErrorState from "@/components/organisms/ErrorState";
+import Card from "@/components/atoms/Card";
+import Button from "@/components/atoms/Button";
 
 const ClientList = () => {
   const [clients, setClients] = useState([]);
@@ -219,7 +219,7 @@ const ClientList = () => {
           </span>
           <span>
             {clients.filter(c => c.status === 'active').length} {t('activeClients', 'clientes activos')}
-          </span>
+</span>
         </motion.div>
       )}
     </div>

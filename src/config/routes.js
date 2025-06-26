@@ -1,10 +1,12 @@
-import Dashboard from '@/components/pages/Dashboard';
-import ClientList from '@/components/pages/ClientList';
-import ClientDetail from '@/components/pages/ClientDetail';
-import ServiceCatalog from '@/components/pages/ServiceCatalog';
-import TicketList from '@/components/pages/TicketList';
-import TicketDetail from '@/components/pages/TicketDetail';
-import ClientPortal from '@/components/pages/ClientPortal';
+import React from "react";
+import ServiceCatalog from "@/components/pages/ServiceCatalog";
+import TicketList from "@/components/pages/TicketList";
+import Dashboard from "@/components/pages/Dashboard";
+import TicketDetail from "@/components/pages/TicketDetail";
+import ClientDetail from "@/components/pages/ClientDetail";
+import ClientList from "@/components/pages/ClientList";
+import ClientPortal from "@/components/pages/ClientPortal";
+import ClientForm from "@/components/pages/ClientForm";
 
 export const routes = {
   dashboard: {
@@ -57,13 +59,22 @@ export const routes = {
     component: TicketDetail,
     hidden: true
   },
-  clientPortal: {
+clientPortal: {
     id: 'clientPortal',
     label: 'Client Portal',
     labelEs: 'Portal Cliente',
     path: '/portal',
     icon: 'Globe',
     component: ClientPortal
+  },
+  clientNew: {
+    id: 'clientNew',
+    label: 'New Client',
+    labelEs: 'Nuevo Cliente',
+    path: '/clients/new',
+    icon: 'UserPlus',
+    component: ClientForm,
+    hidden: true
   }
 };
 

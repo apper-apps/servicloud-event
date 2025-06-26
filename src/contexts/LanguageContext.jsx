@@ -127,7 +127,7 @@ const translations = {
     
     // Clients
     'clientManagement': 'Client Management',
-    'addNewClient': 'Add New Client',
+'addNewClient': 'Add New Client',
     'searchClients': 'Search clients...',
     'companyName': 'Company Name',
     'contactName': 'Contact Name',
@@ -141,7 +141,15 @@ const translations = {
     'edit': 'Edit',
     'delete': 'Delete',
     'view': 'View',
-    
+    'createClient': 'Create Client',
+    'updateClient': 'Update Client',
+    'editClient': 'Edit Client',
+    'clientCreated': 'Client created successfully',
+    'clientUpdated': 'Client updated successfully',
+    'errorSavingClient': 'Error saving client',
+    'updateClientInfo': 'Update client information',
+    'createNewClientAccount': 'Create a new client account',
+    'addNotes': 'Add additional notes...',
     // Services
     'servicesCatalog': 'Services Catalog',
     'createNewService': 'Create New Service',
