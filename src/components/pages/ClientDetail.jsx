@@ -10,7 +10,7 @@ import DataTable from '@/components/molecules/DataTable';
 import SkeletonLoader from '@/components/organisms/SkeletonLoader';
 import ErrorState from '@/components/organisms/ErrorState';
 import ApperIcon from '@/components/ApperIcon';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import clientService from '@/services/api/clientService';
 import clientServiceService from '@/services/api/clientServiceService';
 import serviceService from '@/services/api/serviceService';

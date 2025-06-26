@@ -9,7 +9,7 @@ import Button from '@/components/atoms/Button';
 import Input from '@/components/atoms/Input';
 import FormField from '@/components/molecules/FormField';
 import ApperIcon from '@/components/ApperIcon';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import clientService from '@/services/api/clientService';
 
 const clientSchema = yup.object().shape({

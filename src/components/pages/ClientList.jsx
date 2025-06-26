@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 import clientService from "@/services/api/clientService";
 import DataTable from "@/components/molecules/DataTable";
 import SearchBar from "@/components/molecules/SearchBar";

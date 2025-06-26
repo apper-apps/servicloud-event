@@ -9,7 +9,7 @@ import SkeletonLoader from '@/components/organisms/SkeletonLoader';
 import ErrorState from '@/components/organisms/ErrorState';
 import EmptyState from '@/components/organisms/EmptyState';
 import ApperIcon from '@/components/ApperIcon';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import serviceService from '@/services/api/serviceService';
 
 const ServiceCatalog = () => {

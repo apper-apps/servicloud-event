@@ -9,7 +9,7 @@ import Card from '@/components/atoms/Card';
 import Badge from '@/components/atoms/Badge';
 import SkeletonLoader from '@/components/organisms/SkeletonLoader';
 import ErrorState from '@/components/organisms/ErrorState';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import clientService from '@/services/api/clientService';
 import serviceService from '@/services/api/serviceService';
 import ticketService from '@/services/api/ticketService';

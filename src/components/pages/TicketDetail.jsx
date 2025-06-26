@@ -10,7 +10,7 @@ import Input from '@/components/atoms/Input';
 import SkeletonLoader from '@/components/organisms/SkeletonLoader';
 import ErrorState from '@/components/organisms/ErrorState';
 import ApperIcon from '@/components/ApperIcon';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import ticketService from '@/services/api/ticketService';
 import ticketMessageService from '@/services/api/ticketMessageService';
 import clientService from '@/services/api/clientService';

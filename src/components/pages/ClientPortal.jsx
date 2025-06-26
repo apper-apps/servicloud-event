@@ -8,7 +8,7 @@ import Input from '@/components/atoms/Input';
 import DataTable from '@/components/molecules/DataTable';
 import StatCard from '@/components/molecules/StatCard';
 import ApperIcon from '@/components/ApperIcon';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const ClientPortal = () => {
   const [selectedClient, setSelectedClient] = useState('1'); // Demo client

@@ -1,5 +1,5 @@
-import Input from '@/components/atoms/Input';
-import { useLanguage } from '@/hooks/useLanguage';
+import Input from '@/components/atoms/Input'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 const FormField = ({ 
   name, 
