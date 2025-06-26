@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "clientId": 1,
+    "subject": "Sitio web lento durante horas pico",
+    "description": "El sitio web del restaurante se vuelve muy lento entre las 7-9 PM cuando hay más tráfico. Los clientes reportan tiempos de carga excesivos.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2024-03-15T19:30:00Z",
+    "updatedAt": "2024-03-15T19:30:00Z"
+  },
+  {
+    "Id": 2,
+    "clientId": 2,
+    "subject": "Configuración de nuevo email para asociado",
+    "description": "Necesitamos configurar una nueva cuenta de email para un abogado que se acaba de incorporar al despacho. Requiere acceso completo y sincronización móvil.",
+    "status": "inProgress",
+    "priority": "medium",
+    "createdAt": "2024-03-14T10:15:00Z",
+    "updatedAt": "2024-03-15T14:22:00Z"
+  },
+  {
+    "Id": 3,
+    "clientId": 3,
+    "subject": "Actualización de catálogo de productos",
+    "description": "Necesitamos agregar 25 nuevos productos artesanales al catálogo online. Incluye fotos, descripciones y precios en pesos mexicanos.",
+    "status": "resolved",
+    "priority": "low",
+    "createdAt": "2024-03-12T16:45:00Z",
+    "updatedAt": "2024-03-14T11:30:00Z"
+  },
+  {
+    "Id": 4,
+    "clientId": 4,
+    "subject": "Sistema de citas no envía confirmaciones",
+    "description": "Los pacientes no están recibiendo emails de confirmación cuando reservan citas a través del sitio web. Esto está causando confusión y no-shows.",
+    "status": "open",
+    "priority": "urgent",
+    "createdAt": "2024-03-16T08:20:00Z",
+    "updatedAt": "2024-03-16T08:20:00Z"
+  },
+  {
+    "Id": 5,
+    "clientId": 1,
+    "subject": "Solicitud de respaldo de base de datos",
+    "description": "Requerimos una copia de respaldo completa de la base de datos antes de implementar el nuevo sistema de pedidos online.",
+    "status": "closed",
+    "priority": "medium",
+    "createdAt": "2024-03-10T13:00:00Z",
+    "updatedAt": "2024-03-11T09:15:00Z"
+  }
+]

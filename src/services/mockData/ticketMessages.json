@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "ticketId": 1,
+    "message": "Hemos notado que el sitio web se vuelve extremadamente lento durante las horas de mayor tráfico. Nuestros clientes se quejan y esto está afectando las ventas.",
+    "isInternal": false,
+    "authorType": "client",
+    "createdAt": "2024-03-15T19:30:00Z"
+  },
+  {
+    "Id": 2,
+    "ticketId": 2,
+    "message": "El nuevo abogado es el Lic. Pedro Ramírez, necesita acceso completo al email corporativo.",
+    "isInternal": false,
+    "authorType": "client",
+    "createdAt": "2024-03-14T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "ticketId": 2,
+    "message": "Iniciando configuración de nueva cuenta de email. Estimado de completación: 2 horas.",
+    "isInternal": true,
+    "authorType": "support",
+    "createdAt": "2024-03-15T14:22:00Z"
+  },
+  {
+    "Id": 4,
+    "ticketId": 4,
+    "message": "URGENTE: Los pacientes no reciben confirmaciones de cita. Hemos tenido 5 no-shows hoy por esta razón.",
+    "isInternal": false,
+    "authorType": "client",
+    "createdAt": "2024-03-16T08:20:00Z"
+  },
+  {
+    "Id": 5,
+    "ticketId": 5,
+    "message": "Respaldo completado exitosamente. Archivo enviado por email seguro.",
+    "isInternal": true,
+    "authorType": "support",
+    "createdAt": "2024-03-11T09:15:00Z"
+  }
+]

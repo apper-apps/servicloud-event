@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import react-toastify CSS */
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Ensure scrollbars are visible */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Prevent horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+/* Main content areas must allow scroll */
+.main-content {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+@layer utilities {
+  /* Only use scrollbar-hide for specific UI elements, never main content */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Custom toast styling */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+/* Table hover effects */
+.table-row-hover:hover {
+  background-color: #f8fafc;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Status badge animations */
+.status-badge {
+  transition: all 0.2s ease;
+}
+
+.status-badge:hover {
+  transform: scale(1.05);
+}

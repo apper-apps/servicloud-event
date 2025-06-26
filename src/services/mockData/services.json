@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "name": "Hosting Web Básico",
+    "description": "Plan de hosting compartido ideal para sitios web pequeños y medianos. Incluye 10GB de almacenamiento, certificado SSL y soporte 24/7.",
+    "category": "webHosting",
+    "price": 299,
+    "billingCycle": "monthly",
+    "customFields": {
+      "diskSpace": "10GB",
+      "bandwidth": "100GB",
+      "emailAccounts": "5"
+    },
+    "isActive": true
+  },
+  {
+    "Id": 2,
+    "name": "Gestión de Dominio .com.mx",
+    "description": "Registro y gestión completa de dominios mexicanos .com.mx. Incluye configuración DNS y renovación automática.",
+    "category": "domainManagement",
+    "price": 450,
+    "billingCycle": "yearly",
+    "customFields": {
+      "domain": ".com.mx",
+      "dnsManagement": "Incluido",
+      "whoisPrivacy": "Opcional"
+    },
+    "isActive": true
+  },
+  {
+    "Id": 3,
+    "name": "Mantenimiento WordPress Premium",
+    "description": "Servicio completo de mantenimiento para sitios WordPress. Incluye actualizaciones, respaldos diarios, optimización y soporte técnico.",
+    "category": "wordPressManagement",
+    "price": 899,
+    "billingCycle": "monthly",
+    "customFields": {
+      "backupFrequency": "Diario",
+      "securityMonitoring": "24/7",
+      "performanceOptimization": "Incluida"
+    },
+    "isActive": true
+  },
+  {
+    "Id": 4,
+    "name": "Email Empresarial Pro",
+    "description": "Solución completa de correo empresarial con 50GB por casilla, sincronización móvil y protección antispam avanzada.",
+    "category": "emailHosting",
+    "price": 199,
+    "billingCycle": "monthly",
+    "customFields": {
+      "storagePerMailbox": "50GB",
+      "maxUsers": "25",
+      "mobileSync": "Incluida"
+    },
+    "isActive": true
+  },
+  {
+    "Id": 5,
+    "name": "Campaña SEO Local",
+    "description": "Optimización SEO especializada para negocios locales mexicanos. Incluye Google My Business, keywords locales y reportes mensuales.",
+    "category": "seoMarketing",
+    "price": 1299,
+    "billingCycle": "monthly",
+    "customFields": {
+      "keywordTracking": "50 keywords",
+      "localListings": "15 directorios",
+      "monthlyReports": "Incluidos"
+    },
+    "isActive": true
+  }
+]

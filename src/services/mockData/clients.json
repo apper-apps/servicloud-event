@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "companyName": "Restaurante El Sazón Mexicano",
+    "contactName": "María González López",
+    "email": "maria@elsazonmexicano.com",
+    "phone": "+52 55 1234-5678",
+    "address": "Av. Insurgentes 1234, Col. Roma Norte, CDMX",
+    "notes": "Cliente premium con múltiples servicios de hosting y desarrollo web. Requiere soporte prioritario.",
+    "customFields": {
+      "industry": "Restaurantes",
+      "employeeCount": "15-25",
+      "referredBy": "Google Ads"
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "companyName": "Consultora Jurídica Hernández",
+    "contactName": "Lic. Roberto Hernández",
+    "email": "rhernandez@juridicahernandez.mx",
+    "phone": "+52 81 9876-5432",
+    "address": "Blvd. Constitución 567, Monterrey, NL",
+    "notes": "Especialistas en derecho empresarial. Requieren hosting seguro y respaldo automático.",
+    "customFields": {
+      "industry": "Servicios Legales",
+      "employeeCount": "5-10",
+      "referredBy": "Referencia directa"
+    },
+    "createdAt": "2024-02-03T14:15:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 3,
+    "companyName": "Tienda de Artesanías Oaxaca",
+    "contactName": "Carmen Ruiz Mendoza",
+    "email": "carmen@artesaniasoaxaca.com",
+    "phone": "+52 951 555-1234",
+    "address": "Calle Macedonio Alcalá 89, Oaxaca de Juárez, OAX",
+    "notes": "Tienda online de artesanías tradicionales. Necesita optimización SEO para mercado internacional.",
+    "customFields": {
+      "industry": "Comercio Artesanal",
+      "employeeCount": "3-5",
+      "referredBy": "Redes sociales"
+    },
+    "createdAt": "2024-02-20T09:45:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 4,
+    "companyName": "Clínica Dental Sonrisa Perfecta",
+    "contactName": "Dr. Luis Martínez",
+    "email": "info@sonrisaperfecta.mx",
+    "phone": "+52 33 2468-1357",
+    "address": "Av. Patria 2345, Zapopan, JAL",
+    "notes": "Clínica dental moderna que requiere sistema de citas online y marketing digital.",
+    "customFields": {
+      "industry": "Servicios de Salud",
+      "employeeCount": "10-15",
+      "referredBy": "Colegio de Dentistas"
+    },
+    "createdAt": "2024-03-01T16:20:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 5,
+    "companyName": "Inmobiliaria Torres y Asociados",
+    "contactName": "Arq. Ana Torres",
+    "email": "ana@torresasociados.com",
+    "phone": "+52 998 777-8888",
+    "address": "Av. Tulum 456, Cancún, QROO",
+    "notes": "Inmobiliaria especializada en propiedades turísticas. Requiere portal web con galería avanzada.",
+    "customFields": {
+      "industry": "Bienes Raíces",
+      "employeeCount": "8-12",
+      "referredBy": "Feria inmobiliaria"
+    },
+    "createdAt": "2024-03-10T11:30:00Z",
+    "status": "inactive"
+  }
+]

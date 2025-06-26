@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "clientId": 1,
+    "serviceId": 1,
+    "startDate": "2024-01-15",
+    "endDate": "2024-12-15",
+    "status": "active",
+    "notes": "Servicio de hosting para el sitio web principal del restaurante."
+  },
+  {
+    "Id": 2,
+    "clientId": 1,
+    "serviceId": 3,
+    "startDate": "2024-01-20",
+    "endDate": "2024-12-20",
+    "status": "active",
+    "notes": "Mantenimiento mensual del sitio WordPress con menú online."
+  },
+  {
+    "Id": 3,
+    "clientId": 2,
+    "serviceId": 2,
+    "startDate": "2024-02-03",
+    "endDate": "2025-02-03",
+    "status": "active",
+    "notes": "Dominio .com.mx para el sitio web corporativo."
+  },
+  {
+    "Id": 4,
+    "clientId": 2,
+    "serviceId": 4,
+    "startDate": "2024-02-05",
+    "endDate": "2025-02-05",
+    "status": "active",
+    "notes": "Email empresarial para 8 abogados de la firma."
+  },
+  {
+    "Id": 5,
+    "clientId": 3,
+    "serviceId": 5,
+    "startDate": "2024-02-20",
+    "endDate": "2024-08-20",
+    "status": "active",
+    "notes": "Campaña SEO para posicionamiento en búsquedas de artesanías oaxaqueñas."
+  },
+  {
+    "Id": 6,
+    "clientId": 4,
+    "serviceId": 1,
+    "startDate": "2024-03-01",
+    "endDate": "2025-03-01",
+    "status": "active",
+    "notes": "Hosting para sitio web con sistema de citas online."
+  },
+  {
+    "Id": 7,
+    "clientId": 5,
+    "serviceId": 1,
+    "startDate": "2024-03-10",
+    "endDate": "2024-09-10",
+    "status": "expired",
+    "notes": "Hosting para portal inmobiliario - requiere renovación."
+  }
+]
